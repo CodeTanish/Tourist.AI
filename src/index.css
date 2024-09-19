@@ -1,0 +1,32 @@
+    * {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(45deg, #FFA69E, #FAF3DD, #B8F2E6, #AED9E0);
+        animation: color 12s ease-in-out infinite;
+        background-size: 300% 300%;
+    }
+
+    @keyframes color {
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    }
+
+    *::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background-color: #ddd;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: #bdbdbd;
+        border-radius: 10px;
+    }
