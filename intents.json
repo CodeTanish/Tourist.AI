@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "hiii"
+      ],
+      "responses": [
+        "Hello! How may I assist you today? Are you interested in booking a ticket? Please feel free to say 'yes'.",
+        "Greetings! How can I help you today? Would you like to book a ticket? Simply say 'yes' if you'd like to proceed."
+      ]
+    },
+    {
+      "tag": "Acceptance",
+      "patterns": [
+        "yes",
+        "Yes"
+      ],
+      "responses": [
+        "Great! Could you kindly provide the location or name of the place you'd like to visit?"
+      ]
+    },
+    {
+      "tag":  "Decline",
+      "patterns": [
+        "no",
+        "No"
+      ],
+      "responses": [
+        "No problem at all! I hope you have a wonderful day ahead.",
+        "Thank you for your time. Wishing you a fantastic day!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "I want to visit Qutub Minar",
+        "I want to visit Red Fort",
+        "I want to visit Taj Mahal, Agra",
+        "India Gate",
+        "Jantar Mantar",
+        "Qutub Minar",
+        "Red Fort"
+      ],
+      "responses": [
+        "Thank you for sharing the location. Could you please specify the date of your visit? You can choose either today or tomorrow."
+      ]
+    },
+    {
+      "tag": "Date",
+      "patterns": [
+        "Today",
+        "Tomorrow"
+      ],
+      "responses": [
+        "Thank you! Could you now provide the number of adults and children for the booking?"
+      ]
+    },
+    {
+      "tag": "passenger_info",
+      "patterns": [
+        "I will be traveling with 2 adults and 1 child",
+        "There will be 3 adults and no children",
+        "4 adults and 2 children",
+        "It's just 1 adult and no children"
+      ],
+      "responses": [
+        "Thank you for providing the details. We will now proceed to finalize the booking and initiate the payment process.",
+        "Got it! You've provided the passenger details. Let's proceed with the payment."
+      ]
+    },
+    {
+      "tag": "booking_confirmation",
+      "patterns": [
+        "Proceed to payment",
+        "Finalize booking",
+        "Yes, let's go ahead with the payment"
+      ],
+      "responses": [
+        "Please wait while we process your booking. You will now be redirected to the payment gateway."
+      ]
+    }
+  ]
+}
