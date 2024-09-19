@@ -5,7 +5,6 @@ stripe
 Flask-Mail
 numpy
 nltk
-torch.nn
 json
 torch.utils.data
 gunicorn
