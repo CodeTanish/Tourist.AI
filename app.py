@@ -178,4 +178,4 @@ def send_ticket_via_email(user_email):
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
