@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+torch
+stripe
+Flask-Mail
+gunicorn
