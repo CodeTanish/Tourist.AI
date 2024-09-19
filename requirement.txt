@@ -4,5 +4,5 @@ torch
 stripe
 Flask-Mail
 numpy
-gunicorn
 nltk
+gunicorn
